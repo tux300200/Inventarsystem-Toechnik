@@ -1,6 +1,6 @@
-const http = require('node:http')
+import { createServer } from 'node:http'
 
-http.createServer((req, res) => {
+const server = createServer((req, res) => {
   if (req.url === '/api/hello') {
     res.setHeader('Content-Type', 'application/json')
     res.end(JSON.stringify({ message: 'Hello World' }))
@@ -8,4 +8,6 @@ http.createServer((req, res) => {
     res.statusCode = 404
     res.end()
   }
-}).listen(3000)
+})
+
+server.listen(3000)
