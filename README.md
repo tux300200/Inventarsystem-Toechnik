@@ -16,7 +16,7 @@ Lichthammer auf die 1; alle Lichthammerrechte vorbehalten.
 
 # Zu diesem Projekt beitragen
 
-Die Verwendung eines GitHub Codespaces wird zur Vermeidung diverser empfohlen.
+Die Verwendung eines GitHub Codespaces wird zur Vermeidung diverser Probleme empfohlen.
 
 Nach dem Verbinden mit einem Codespace können die Server <b> in 2 seperaten Terminals </b> mit den folgenden Befehlen gestartet werden:
 
