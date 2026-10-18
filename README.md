@@ -16,7 +16,13 @@ Lichthammer auf die 1; alle Lichthammerrechte vorbehalten.
 
 # Zu diesem Projekt beitragen
 
-Nach dem Klonen dieses Projekts bzw. dem Verbinden mit einem Codespace, können die Frontend- & Backend-Server lokal mit den folgenden Befehlen <b> in zwei separaten Terminals </b> gestartet werden:
+Nach dem Klonen dieses Projekts bzw. dem Verbinden mit einem Codespace, kann die Website lokal wie folgt gesartet werden:
+
+Zuerst muss im Projektverzeichnis die im Lockfile festgehaltenen Abhängigkeiten installiert werden:
+
+`npm ci`
+
+Danach können die Server <b> in 2 seperaten Terminals </b> gestartet werden:
 
 `npm run dev -w backend` (Standardmäßig auf Port 3000) <br>
 `npm run dev -w frontend` (Standardmäßig auf Port 5173)
